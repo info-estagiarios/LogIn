@@ -201,35 +201,54 @@ form input[type="submit"]:hover {
 @media screen and (max-width: 520px) and (orientation: portrait){
     .login-form{
         width: 25rem;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-height: 700px){
+    .login-form{
         height: 60vh;
     }
 }
 
-@media screen and (max-height: 460px) and (orientation: landscape){
+@media screen and (max-height: 575px){
+    .login-form{
+        height: 75vh;
+    }
+}
+
+@media screen and (max-height: 450px){
     .login-form{
         width: 20rem;
-        height: 90vh;
+        height: 80vh;
+    }
+}
+
+@media screen and (max-height: 370px){
+    .login-form{
+        width: 20rem;
+        height: 85vh;
+    }
+}
+
+@media screen and (max-height: 340px){
+    .login-form{
+        width: 20rem;
+        height: 98vh;
     }
 }
 
 @media screen and (max-width: 415px) and (orientation: portrait){
     .login-form{
         width: 20rem;
-        height: 65vh;
-    }
-}
-
-@media screen and (max-height: 370px) and (orientation: landscape){
-    .login-form{
-        width: 20rem;
-        height: 100vh;
+        height: 50vh;
     }
 }
 
 @media screen and (max-width: 320px) and (orientation: portrait){
     .login-form{
         width: 17rem;
-        height: 65vh;
+        height: 50vh;
     }
 
     .footer span, .footer a{
