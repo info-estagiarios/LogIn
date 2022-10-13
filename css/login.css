@@ -51,9 +51,9 @@ main {
 .container-left h2::before {
     content: '';
     position: absolute;
-    height: 4px;
-    width: 35px;
-    bottom: 3px;
+    height: 0.25rem;
+    width: 2.1875rem;
+    bottom: 0.1875rem;
     left: 0;
     border-radius: 8px;
     background: linear-gradient(45deg, #2e82ff, #00369b);
@@ -65,7 +65,7 @@ form {
 }
 
 form input {
-    margin-top: 16px;
+    margin-top: 1rem;
 }
 
 .input-field {
@@ -198,10 +198,22 @@ form input[type="submit"]:hover {
     }
 }
 
+
 @media screen and (max-width: 520px) and (orientation: portrait){
     .login-form{
         width: 25rem;
         height: 60%;
+    }
+}
+
+@media (max-width: 420px){
+    .login-form{
+        width: 30rem;
+        height: 100%;
+    }
+
+    .login-form h2{
+        margin-top: -2rem;
     }
 }
 
